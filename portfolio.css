@@ -1,0 +1,83 @@
+nav
+{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	border: solid;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 6px 6px 6px black;
+	background-color: rgb(129,223,254);
+	opacity: 0.5;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav li
+{
+	display: inline-block;
+	margin-right: 20px;
+	border: 2px solid;
+	border-radius: 5px 5px 5px 5px;
+	padding: 2px 3px 3px 3px;
+	background-color: rgb(49,102,240);
+}
+
+nav a 
+{
+	font-size: 1.2em;
+	color: white;
+	
+}
+
+nav a:visited
+{
+	color: white;
+}
+
+a:link
+{
+	text-decoration:none;
+} 
+
+
+body
+{
+	background-image: url("IMG/fond-bleu2.jpg");
+	background-attachment: fixed;
+	
+}
+
+body h1
+{
+	text-align: center;
+}
+
+body h2
+{
+	text-align: left;
+	margin-left: 250px;
+	margin-top: 250px;
+}
+
+body section h1
+{
+	text-align: left;
+	margin-left: 75px;
+}
+
+.PDF
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ancre-retour
+{
+	display: inline-block;
+	text-align: center;
+}
+
